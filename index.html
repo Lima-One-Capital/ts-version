@@ -3,8 +3,12 @@
 <head>
   <meta charset="utf-8">
   <style>
-    .cell{
+    .tbl{
+      border-spacing: 50px 0;
+    }
+    .col{
       column-gap: 20px;
+      padding: 10px 0;
     }
     .header{
       font-weight: bold;
@@ -18,14 +22,14 @@
 <body>
   <table id="versionTable" name="versionTable" style="border-collapse:collapse;border-spacing:0" class="Table Table--align-right Table--fixed Table--fixed-left">
     <tr id="header" name="header">
-      <td class="cell header" id="date" name="date">Date</td>
-      <td class="cell header versionCol" id="versionNum" name="versionNum">Version Number</td>
-      <td class="cell header">Update</td>
+      <td class="col header" id="date" name="date">Date</td>
+      <td class="col header versionCol" id="versionNum" name="versionNum">Version Number</td>
+      <td class="col header">Update</td>
     </tr>
     <tr>
-      <td class="cell" id="date1" name="date1">10/08/2020</td>
-      <td class="cell" id="number" name="number">2.8</td>
-      <td class="cell" >pricing update on 10/8</td>
+      <td class="col" id="date1" name="date1">10/08/2020</td>
+      <td class="col" id="number" name="number">2.8</td>
+      <td class="col" >pricing update on 10/8</td>
     </tr>
   </table>
 </body>
