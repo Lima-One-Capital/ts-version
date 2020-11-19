@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html id="version" version="2.81">
+<head>
+  <meta charset="utf-8">
+  <style>
+    .tbl{
+      border-spacing: 50px 0;
+    }
+    .col{
+      column-gap: 20px;
+      padding: 10px 15px;
+    }
+    .header{
+      font-weight: bold;
+    }
+    .versionCol{
+      text-align: center;
+    }
+    
+  </style>
+</head
+<body>
+  <table id="versionTable" name="versionTable" style="border-collapse:collapse;border-spacing:0" class="Table Table--align-right Table--fixed Table--fixed-left">
+    <tr id="header" name="header">	
+      <td class="col header" id="date" name="date">Date</td>	
+      <td class="col header versionCol" id="versionNum" name="versionNum">Version Number</td>	
+      <td class="col header">Update</td>	
+    </tr>
+    <tr>
+      <td class="col" id="date1" name="date1">11/19/2020</td>
+      <td class="col versionCol" id="number" name="number">1.0</td>
+      <td class="col" >Initial creation</td>
+    </tr>
+
+  </table>
+</body>
+</html>
